@@ -30,10 +30,10 @@
 }
 .user {
   display: flex;
-}
-.user__name {
   align-items: flex-start;
   align-items: center;
+}
+.user__name {
   font-family: Mulish;
   font-size: 14px;
   padding-left: 18px;

@@ -1,0 +1,63 @@
+.header
+    background-color: #ffffff
+    &-top
+        display: flex
+        align-items: center
+        justify-content: space-between
+        padding-top: 40px
+        padding-bottom: 40px
+    &__search
+        margin-right: auto
+        margin-left: 108px
+.search
+    display: flex
+    position: relative
+    overflow: hidden
+    border-radius: 6px
+    height: 40px
+    &__input
+        width: 350px
+        height: 100%
+        padding-left: 23px
+        padding-right: 75px
+        background: #f5fafe
+        border: none
+        font-size: 12px
+        line-height: 15px
+        color $text-color
+
+    &__button
+        position: absolute
+        width: 65px
+        height: 100%
+        right: 0px
+        top: 0px
+        border: none
+        background: $primery
+        border-radius: 0px 6px 6px 0px
+.user
+    display: flex
+    align-items: center
+    text-decoration: none
+
+    &__name
+        align-items: flex-start
+        font-family: Mulish
+        font-size: 14px
+        padding-left: 18px
+        color: $text-color
+
+.header-menu
+    height: 80px
+    background: #0a223d
+    margin: 0px
+    display: flex
+    justify-content: space-around
+    align-items: center
+
+    &__link
+        font-family: Mulish
+        font-weight: bold
+        font-size: 14px
+        color: #ffffff
+        text-decoration: none
